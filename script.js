@@ -1,3 +1,13 @@
-const h2 = document.createElement('h2');
-h2.textContent = "This content added by JavaScript"; 
-document.querySelector('body').appendChild(h2); 
+// const headerOne = document.querySelectorAll('h1')
+
+// headerOne.style.color = 'blue';
+
+// for (let i = 0; i < headerOne.length i++) {
+//     console.log(headerOne[i]);
+// }
+
+const headerOne = document.querySelectorAll('h1');
+
+for (let i = 0; i < headerOne.length; i++) {
+    headerOne[i].style.color = "blue";
+}
